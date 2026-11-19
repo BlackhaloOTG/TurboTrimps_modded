@@ -1,7 +1,7 @@
 
 window.turbo = 1;
 window.turboHasSlowedDown = false;
-window.turboTimeValues = [1, 10, 100, 250, 500, 1000];
+window.turboTimeValues = [1, 1.5, 2, 2.5, 3, 5];
 
 function getCurrentTimestamp() {
     if (window.game) {
